@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MadLib Game</title>
+</head>
+<body>
+    <h1>Bootcamp Prep MadLib</h1>
+    <label>
+        Noun: <input id="noun1">
+    </label>
+    <label>
+        Present-Tense Verb: <input id="presenttv1">
+    </label>
+    <label>
+        Noun: <input id="noun2">
+    </label>
+    <label>
+        Past-Tense Verb: <input id="pasttv1">
+    </label>
+    <label>
+        Noun: <input id="noun3">
+    </label>
+    <label>
+        Adjective: <input id="adjective1">
+    </label>
+    <label>
+        Adverb: <input id="adverb1">
+    </label>
+    <label>
+        Present-Tense Verb: <input id="presenttv2">
+    </label>
+
+    <button type="button" onclick="createlib">Create your MadLib!</button>
+
+    <p>
+            one day <span id="noun1-result"></span> was <span id="presenttv1-result"></span>>
+            to the <span id="noun2-result"></span>>. On the way there, they <span id="pasttv1-result"></span>> 
+            a <span id="noun3-result"></span>>, it was <span id="adjective1-result"></span>>. 
+            This was a surprise to them so they <span id="adverb1-result"></span>> started 
+            <span id="presenttv2"></span>>.
+    </p>
+
+    <script src="app.js"></script>
+</body>
+</html>
